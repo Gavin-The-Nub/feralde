@@ -317,7 +317,7 @@ export default function LuxuryPerfumeCarousel() {
                 </Link>
               </header>{" "}
               {/* Main Carousel Content */}{" "}
-              <div className="relative z-10 flex items-center justify-center min-h-[80vh] overflow-x-hidden">
+              <div className="relative z-10 flex items-center justify-center min-h-[80svh] overflow-x-hidden">
                 {" "}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center max-w-6xl mx-auto px-4 md:px-8 w-full">
                   {" "}
