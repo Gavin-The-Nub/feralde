@@ -393,11 +393,11 @@ export default function LuxuryPerfumeCarousel() {
                         </div>{" "}
                         <div className="w-8 h-px bg-gray-300"></div>{" "}
                       </div>{" "}
-                      <h1 className="text-4xl md:text-6xl font-light tracking-tight leading-none">
+                      <h1 className="text-3xl md:text-6xl font-light tracking-tight leading-none">
                         {" "}
                         {currentPerfume.name}{" "}
                       </h1>{" "}
-                      <p className="text-lg text-gray-600 leading-relaxed font-light">
+                      <p className=" md:text-lg text-gray-600 leading-relaxed font-light">
                         {" "}
                         {currentPerfume.description}{" "}
                       </p>{" "}
@@ -407,7 +407,7 @@ export default function LuxuryPerfumeCarousel() {
                       <div></div>{" "}
                       <Link
                         href="/collection"
-                        className="px-8 py-3 bg-black text-white text-sm tracking-[0.2em] hover:bg-gray-800 transition-colors duration-300 inline-flex items-center justify-center"
+                        className="px-6 py-2 md:px-8 md:py-3 bg-black text-white text-sm tracking-[0.2em] hover:bg-gray-800 transition-colors duration-300 inline-flex items-center justify-center"
                         style={{
                           backgroundColor: currentPerfume.color,
                           transform: `scale(${
